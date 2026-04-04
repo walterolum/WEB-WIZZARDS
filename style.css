@@ -1,4 +1,15 @@
-
+:root {
+            --navy: #1A2B4C;
+            --gold: #FFB347;
+            --cream: #FFF8E7;
+            --coral: #FF7F6E;
+            --mint: #98D8B8;
+            --charcoal: #333333;
+            --white: #FFFFFF;
+            --light-gray: #F5F5F5;
+            --shadow: 0 10px 30px rgba(0,0,0,0.1);
+            --transition: all 0.3s ease;
+        }
 
 
  .page-title {
