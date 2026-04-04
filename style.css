@@ -1,1 +1,75 @@
 
+
+
+ .page-title {
+            background: #F5F5F5;
+            text-align: center;
+            padding: 3rem 0;
+        }
+        .page-title h1 {
+            font-size: 2.5rem;
+            color: #1A2B4C;
+        }
+        .page-title p {
+            color: #666;
+            margin-top: 0.5rem;
+        }
+
+        .section {
+            padding: 3rem 0;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; ;
+        }
+        .section h2 {
+            text-align: center;
+            font-size: 2rem;
+            color: #1A2B4C;
+           
+        }
+        .mission-vision {
+            display: flex;
+            gap: 2rem;
+            margin-top: 1rem;
+        }
+        .mission, .vision {
+            flex: 1;
+            background: #F9F9F9;
+            padding: 2rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .mission i, .vision i {
+            font-size: 2.5rem;
+            color: #FFB347;
+            margin-bottom: 1rem;
+        }
+        .mission h3, .vision h3 {
+            color: #1A2B4C;
+            margin-bottom: 1rem;
+        }
+
+        .values-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        .value-card {
+            flex: 1;
+            min-width: 200px;
+            background: #fff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .value-card i {
+            font-size: 2rem;
+            color: #FFB347;
+            margin-bottom: 1rem;
+        }
+        .value-card h4 {
+            color: #1A2B4C;
+            margin-bottom: 0.5rem;
+
+        }
+
