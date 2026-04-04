@@ -326,6 +326,76 @@
             color: var(--white);
             border: 2px solid var(--white);
         }
+.programs {
+            background: var(--white);
+        }
+
+        .programs-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .program-card {
+            background: var(--white);
+            padding: 40px 30px;
+            border-radius: 20px;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            text-align: center;
+            border-bottom: 4px solid transparent;
+        }
+
+        .program-card:hover {
+            transform: translateY(-10px);
+            border-bottom-color: var(--gold);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        }
+
+        .program-icon {
+            width: 80px;
+            height: 80px;
+            background: var(--cream);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 25px;
+        }
+
+        .program-icon i {
+            font-size: 2.5rem;
+            color: var(--gold);
+        }
+
+        .program-card h3 {
+            font-size: 1.5rem;
+            color: var(--navy);
+            margin-bottom: 15px;
+        }
+
+        .program-card p {
+            color: #666;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+
+        .program-link {
+            color: var(--gold);
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            transition: var(--transition);
+        }
+
+        .program-link:hover {
+            gap: 10px;
+            color: var(--navy);
+        }
+
+        .success-story {
 
         .btn-secondary:hover {
             background: var(--white);
