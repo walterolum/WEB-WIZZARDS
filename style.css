@@ -1,3 +1,77 @@
+
+.header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            background: transparent;
+            transition: var(--transition);
+            padding: 20px 0;
+        }
+
+        .header.scrolled {
+            background: var(--navy);
+            box-shadow: var(--shadow);
+            padding: 15px 0;
+        }
+
+        .header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logo h1 {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: var(--white);
+            line-height: 1;
+        }
+
+        .logo span {
+            font-size: 0.9rem;
+            color: var(--gold);
+            font-weight: 400;
+            letter-spacing: 2px;
+        }
+
+        .nav-menu {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .nav-menu a {
+            color: var(--white);
+            font-weight: 500;
+            transition: var(--transition);
+            position: relative;
+        }
+
+        .nav-menu a:hover {
+            color: var(--gold);
+        }
+
+        .nav-menu a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--gold);
+            transition: var(--transition);
+        }
+
+        .nav-menu a:hover::after {
+            width: 100%;
+        }
 :root {
             --navy: #1A2B4C;
             --gold: #FFB347;
@@ -440,3 +514,105 @@
                 justify-content: center;
             }
 }
+
+
+.footer {
+            background: var(--navy);
+            color: var(--white);
+            padding: 60px 0 20px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1.5fr;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-col h3 {
+            color: var(--gold);
+            margin-bottom: 25px;
+            font-size: 1.2rem;
+        }
+
+        .footer-logo h2 {
+            font-size: 1.8rem;
+            margin-bottom: 5px;
+        }
+
+        .footer-logo span {
+            color: var(--gold);
+        }
+
+        .footer-about p {
+            opacity: 0.8;
+            margin: 20px 0;
+            line-height: 1.8;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 15px;
+        }
+
+        .social-links a {
+            width: 40px;
+            height: 40px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition);
+        }
+
+        .social-links a:hover {
+            background: var(--gold);
+            color: var(--navy);
+            transform: translateY(-3px);
+        }
+
+        .footer-links ul {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 12px;
+        }
+
+        .footer-links a {
+            opacity: 0.8;
+            transition: var(--transition);
+        }
+
+        .footer-links a:hover {
+            opacity: 1;
+            color: var(--gold);
+            padding-left: 5px;
+        }
+
+        .contact-info p {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            opacity: 0.8;
+        }
+
+        .contact-info i {
+            color: var(--gold);
+            width: 20px;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            opacity: 0.6;
+            font-size: 0.9rem;
+        }
+
+        .footer-bottom a {
+            color: var(--gold);
+        }
+
