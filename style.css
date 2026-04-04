@@ -419,3 +419,24 @@
             text-decoration: none;
             color: inherit;
         }
+  .contact-info p {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            opacity: 0.8;
+        }
+
+        .contact-info i {
+            color: var(--gold);
+            width: 20px;
+        }
+@media (max-width : 1024px;) {
+              .contact-info p {
+                justify-content: center;
+            }
+
+            .social-links {
+                justify-content: center;
+            }
+}
