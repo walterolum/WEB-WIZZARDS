@@ -330,7 +330,7 @@ h{
             z-index: 1000;
             background: transparent;
             transition: var(--transition);
-            padding: 20px 0;
+            padding: 5px;
         }
 
         .header.scrolled {
