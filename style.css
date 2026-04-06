@@ -340,7 +340,7 @@ h{
         }
 
         .header .container {
-            background: color: var(--navy);
+            background-color: var(--navy);
             display: flex;
             justify-content: space-between;
             align-items: center;
