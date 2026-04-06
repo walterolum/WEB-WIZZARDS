@@ -27,6 +27,12 @@
             line-height: 1.6;
             overflow-x: hidden;
         }
+h{
+    color: #1A2B4C;
+    margin-top: 0;
+    border-left: 5px solid #FFB347;
+    padding-left: 1rem;
+}
 
         h1, h2, h3, h4, h5, h6 {
             font-family: 'Poppins', sans-serif;
