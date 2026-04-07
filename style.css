@@ -26,6 +26,8 @@
             color: var(--charcoal);
             line-height: 1.6;
             overflow-x: hidden;
+            margin: 0;
+            padding-top: 80px;
         }
 h{
     color: #1A2B4C;
@@ -330,7 +332,12 @@ h{
             z-index: 1000;
             background: transparent;
             transition: var(--transition);
-            padding: 5px;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-item: center;
+            box-sizing: border-box;
+            background: linear-gradient(90deg, #1A2B4C, #FFB347);
         }
 
         .header.scrolled {
