@@ -346,6 +346,11 @@ h{
             align-items: center;
             width: 100%;
             padding: 10px;
+            top: 0;
+            left: 0;
+            right: 0;
+                    
+                    
         }
 
         .logo {
